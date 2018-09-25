@@ -1,0 +1,35 @@
+
+Observations
+---------------
+1) Feed Forward Neural Network used
+2) Predicts only one token for the hole size of 2
+3) Only one previous token used for training
+
+
+Improvement Ideas
+---------------
+1) Use RNN
+2) check for hole size and predict accordingly
+3) consider two previous token for training
+4) make use of suffixes as well
+
+========================L2============================
+
+Observations
+-------------------
+1) RNN(LSTM) used 
+2) prediction according to hole size
+3) trained using 2 previous tokens
+
+Improvement Ideas
+---------------
+1) use padding for the starting token (index error for the first token)
+2) multiple LSTM layers 
+3) use more previous tokens and use them separately
+4) use suffixes
+
+Big Idea: 
+-------------
+- combination (LSTM + ngram) model
+- use frequency distributions of bi-gram, tri-gram and 4-gram
+- consider average of probabilities from two model for prediction
