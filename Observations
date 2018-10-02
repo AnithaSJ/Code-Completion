@@ -28,6 +28,19 @@ Improvement Ideas
 3) use more previous tokens and use them separately
 4) use suffixes
 
+========================L3============================
+
+Observations
+-------------------
+1) multi layered LSTM used 
+2) trained using 5 previous tokens (separately)
+3) padding used
+
+Improvement Ideas
+---------------
+1) use suffixes
+2) flexible hole size
+
 Big Idea: 
 -------------
 - combination (LSTM + ngram) model
