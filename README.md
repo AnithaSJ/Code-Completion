@@ -63,7 +63,7 @@ The model is queried with the prefix and the suffix of the missing section(s)/to
 
 ["Code Completion with Statistical Language Models"](http://www.cs.technion.ac.il/~yahave/papers/pldi14-statistical.pdf)
 
-***PS** This project was done as part of a [course](http://software-lab.org/teaching/summer2018/asdl/) in the university.
+**PS** This project was done as part of a [course](http://software-lab.org/teaching/summer2018/asdl/) in the university.
 
  
  
