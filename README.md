@@ -1,4 +1,4 @@
-# Code-Completion-using-Deep-Learning
+# Code-Completion
 
 ### Problem/ Project Description:
 
